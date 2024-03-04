@@ -8,30 +8,29 @@
 </head>
 <body>
     <nav id="calc">
-        <div id="scr">
-            <button></button>
-
+        <div id="screen">
+            <input id="display"  type="text" name="display" value="">
         </div>
-
         <div id="btn">
-            <h1>m+</h1>
-            <h1>mc</h1>
-            <h1>/</h1>
-            <h1>x</h1>
-            <h1>7</h1>
-            <h1>8</h1>
-            <h1>9</h1>
-            <h1>-</h1>
-            <h1>4</h1>
-            <h1>5</h1>
-            <h1>6</h1>
-            <h1>+</h1>
-            <h1>1</h1>
-            <h1>2</h1>
-            <h1>3</h1>
-            <h1>=</h1>
-            <h1>0</h1>
-            <h1>.</h1>
+            <div id="m" onclick="display.value = ' '">m+</div>
+            <h1 id="c" onclick="display.value = ' '">mc</h1>
+            <h1 id="cal1" onclick="display.value = '/'">/</h1>
+            <h1 id="cal2"onclick="display.value = '*'">x</h1>
+            <h1 id="seven" onclick="display.value += '7'">7</h1>
+            <h1 id="cal4" onclick="display.value += '8'">8</h1>
+            <h1 id="cal5" onclick="display.value += '9'">9</h1>
+            <h1 id="cal6" onclick="display.value += '-'">-</h1>
+            <h1 id="cal7" onclick="display.value += '4'">4</h1>
+            <h1 id="cal8" onclick="display.value += '5'">5</h1>
+            <h1 id="cal9" onclick="display.value += '6'">6</h1>
+            <h1 id="cal10" onclick="display.value += '+'">+</h1>
+            <h1 id="cal11" onclick="display.value += '1'">1</h1>
+            <h1 id="cal12" onclick="display.value += '2'">2</h1>
+            <h1 id="cal13" onclick="display.value += '3'">3</h1>
+            <h1 id="cal14" onclick="display.value =  eval('value')">=</h1>
+            <h1 id="cal15" onclick="display.value += '%'">%</h1>
+            <h1 id="cal16"onclick="display.value += ' 0'">0</h1>
+            <h1 id="cal17" onclick="display.value += '.'">.</h1>
             
 
         </div>
